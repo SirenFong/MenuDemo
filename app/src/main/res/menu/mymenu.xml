@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnXemds"
+        android:title="Xem Danh Sách">
+        <menu>
+            <item
+                android:id="@+id/mnXemSV"
+                android:title="Nhân viên" />
+            <item
+                android:id="@+id/mnXemLH"
+                android:title="Phòng ban" />
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/mnSuaDanhSach"
+        android:title="Sửa danh sách" />
+    <item
+        android:id="@+id/mnXoaDanhSach"
+        android:title="Xóa danh sách" />
+    <item
+        android:id="@+id/mnInDanhSach"
+        android:title="In danh sách" />
+</menu>
